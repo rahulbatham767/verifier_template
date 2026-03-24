@@ -1,0 +1,39 @@
+{
+  "name": "Digital ID Verification",
+  "version": "1.0",
+  "requested_attributes": {
+    "attr1_name": {
+      "name": "name",
+      "restrictions": [
+        {
+          "cred_def_id": "ffdHF7fJdBkQk8xBakkbe:3:CL:10:digital_id"
+        }
+      ]
+    },
+    "attr2_email": {
+      "name": "email",
+      "restrictions": [
+        {
+          "cred_def_id": "ffdHF7fJdBkQk8xBakkbe:3:CL:10:digital_id"
+        }
+      ]
+    },
+    "attr3_phone": {
+      "name": "phone",
+      "restrictions": [
+        {
+          "cred_def_id": "ffdHF7fJdBkQk8xBakkbe:3:CL:10:digital_id"
+        }
+      ]
+    },
+    "attr4_dob": {
+      "name": "dob",
+      "restrictions": [
+        {
+          "cred_def_id": "ffdHF7fJdBkQk8xBakkbe:3:CL:10:digital_id"
+        }
+      ]
+    }
+  },
+  "requested_predicates": {}
+}
