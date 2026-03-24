@@ -1,6 +1,7 @@
 [{
   "name": "Digital ID Verification",
   "version": "1.0",
+  "description":"Verify user identity using Digital ID including name, email, phone number, and date of birth.",
   "requested_attributes": {
     "attr1_name": {
       "name": "name",
@@ -39,6 +40,7 @@
 },
   {
   "name": "Employee Verification",
+    "description":"Verify employee details including name, employee ID, and email from a valid employer-issued credential.",
   "version": "1.0",
   "requested_attributes": {
     "first_name": {
