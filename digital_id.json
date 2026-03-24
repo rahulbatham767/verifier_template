@@ -1,4 +1,4 @@
-{
+[{
   "name": "Digital ID Verification",
   "version": "1.0",
   "requested_attributes": {
@@ -36,4 +36,44 @@
     }
   },
   "requested_predicates": {}
+},
+  {
+  "name": "Employee Verification",
+  "version": "1.0",
+  "requested_attributes": {
+    "first_name": {
+      "name": "first_name",
+      "restrictions": [
+        {
+          "cred_def_id": "ffdHF7fJdBkQk8xBakkbe:3:CL:19:employeer"
+        }
+      ]
+    },
+    "last_name": {
+      "name": "last_name",
+      "restrictions": [
+        {
+          "cred_def_id": "ffdHF7fJdBkQk8xBakkbe:3:CL:19:employeer"
+        }
+      ]
+    },
+    "employee_id": {
+      "name": "employee_id",
+      "restrictions": [
+        {
+          "cred_def_id": "ffdHF7fJdBkQk8xBakkbe:3:CL:19:employeer"
+        }
+      ]
+    },
+    "email": {
+      "name": "email",
+      "restrictions": [
+        {
+          "cred_def_id": "ffdHF7fJdBkQk8xBakkbe:3:CL:19:employeer"
+        }
+      ]
+    }
+  },
+  "requested_predicates": {}
 }
+]
